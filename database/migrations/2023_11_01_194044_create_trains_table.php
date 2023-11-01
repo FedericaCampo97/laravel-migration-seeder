@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string("agency");
             $table->string("starts");
             $table->string("arrivals");
-            $table->dateTime('hour_starts');
+            $table->dateTime('hour_start');
             $table->dateTime('hour_arrivals');
             $table->integer('code_train');
             $table->integer('number_ carriages');
